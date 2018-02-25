@@ -1,3 +1,4 @@
+source activate mxnet_p36
 python scheduler.py &
 python server.py &
 python image-classification/train_imagenet.py \
